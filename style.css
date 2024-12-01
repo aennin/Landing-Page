@@ -1,0 +1,159 @@
+* {
+    font-family: Roboto;
+    margin: 0px;
+    
+}
+
+
+.header {
+    background-color: #1F2937;
+    padding: 16px 48px 48px 48px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.logolinks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.textimg {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigawesome {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.smallawesome{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 6px;
+    width: 70px;
+    color: white;
+    border: 2px solid white;
+    
+}
+
+.information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 32px;
+    
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.quote {
+    font-size: 30px;
+    font-style:italic;
+    color: #1F2937;
+}
+
+.quoteowner {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blue-box {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    background-color: #3882f6;
+    width: 500px;
+    height: 50px;
+    color: white;
+    border-radius: 6px;
+    
+}
+
+.action {
+    font-weight: bold;
+}
+
+.click {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+.last-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 16px;
+    height: 20px;
+}
